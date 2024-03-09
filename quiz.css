@@ -1,0 +1,48 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  h1 {
+    margin-top: 0;
+  }
+  
+  .question {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .answer {
+    display: inline-block;
+    margin: 10px;
+    padding: 10px 20px;
+    background-color: #EEE;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .answer:hover {
+    background-color: #DDD;
+  }
+  
+  .message {
+    font-size: 24px;
+    margin-top: 20px;
+  }
+  
+  .correct {
+    color: green;
+  }
+  
+  .incorrect {
+    color: red;
+  }
+  
